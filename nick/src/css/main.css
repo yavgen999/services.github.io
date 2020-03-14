@@ -1,0 +1,25 @@
+.div-center {
+    display: table;
+    margin: 0 auto;
+}
+
+.div-center img {
+    width: 10rem;
+}
+
+.buttons-group {
+    display: flex;
+    cursor: pointer;
+}
+
+.buttons-group button:first-child {
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+a, div, img, p, button {
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-tap-highlight-color: transparent;
+}
