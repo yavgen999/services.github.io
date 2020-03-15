@@ -1,0 +1,50 @@
+{
+  "name": "vkminiappboilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://yavgen999.github.io/",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "vk-miniapps-deploy",
+    "start": "cross-env PORT=10888 react-scripts start",
+    "build": "react-scripts build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@vkontakte/vk-miniapps-deploy": "0.0.17",
+    "cross-env": "^5.2.1",
+    "react-hot-loader": "^4.12.19",
+    "react-scripts": "^2.1.8",
+    "redux-devtools-extension": "^2.13.8"
+  },
+  "dependencies": {
+    "@happysanta/vk-app-ui": "^0.2.0",
+    "@sentry/browser": "^5.12.1",
+    "@vkontakte/icons": "^1.17.1",
+    "@vkontakte/vk-bridge": "^2.0.8",
+    "@vkontakte/vk-connect": "^1.8.5",
+    "@vkontakte/vkui": "^3.1.1",
+    "@vkontakte/vkui-connect": "^1.5.4",
+    "@vkontakte/vkui-connect-promise": "^0.1.19",
+    "axios": "^0.19.2",
+    "babel-eslint": "^9.0.0",
+    "chalk": "^2.4.2",
+    "core-js": "^2.6.11",
+    "jquery": "^3.4.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-redux": "^7.1.3",
+    "react-swipeable": "^5.5.1",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
